@@ -36,6 +36,11 @@ export default {
               linkDes: ''
             },
             {
+              linkName: '重绘和回流',
+              linkSrc: 'http://www.css88.com/archives/4996',
+              linkDes: ''
+            },
+            {
               linkName: 'DMN HTML',
               linkSrc: 'https://developer.mozilla.org/zh-CN/docs/Web/HTML',
               linkDes: '权威的Web开发手册'

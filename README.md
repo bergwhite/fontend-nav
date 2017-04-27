@@ -1,6 +1,6 @@
 ## 前端导航
 
-在线地址：[http://berg-lab.com/#/](http://berg-lab.com/#/)
+在线地址：[http://www.gongsikai.cn/#/](http://www.gongsikai.cn/#/)
 
 > 前端导航主要为不同阶段的前端学习者提供官方文档以及高质量教程的直达服务。
 

@@ -34,6 +34,11 @@ export default {
               linkName: '在线编辑器 jsfiddle',
               linkSrc: 'https://jsfiddle.net/',
               linkDes: ''
+            },
+            {
+              linkName: 'youmightnotneedjquery',
+              linkSrc: 'http://youmightnotneedjquery.com/',
+              linkDes: ''
             }
           ]
         },
@@ -112,12 +117,52 @@ export default {
           tagList: [
             {
               linkName: 'Webpack 官方文档',
-              linkSrc: 'http://webpack.github.io/',
+              linkSrc: 'https://webpack.js.org/',
               linkDes: ''
             },
             {
               linkName: 'Webpack 中文文档',
-              linkSrc: 'http://webpackdoc.com/',
+              linkSrc: 'https://doc.webpack-china.org/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'Express',
+          tagList: [
+            {
+              linkName: 'Express 官方文档',
+              linkSrc: 'http://expressjs.com/',
+              linkDes: ''
+            },
+            {
+              linkName: 'Express 中文文档',
+              linkSrc: 'http://www.expressjs.com.cn/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'Koa',
+          tagList: [
+            {
+              linkName: 'Koa 官方文档',
+              linkSrc: 'http://koajs.com/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'MongoDB',
+          tagList: [
+            {
+              linkName: 'MongoDB 官方文档',
+              linkSrc: 'https://www.mongodb.org/',
+              linkDes: ''
+            },
+            {
+              linkName: 'MongoDB 中文文档',
+              linkSrc: 'http://www.mongodb.org.cn/',
               linkDes: ''
             }
           ]
@@ -183,6 +228,21 @@ export default {
             {
               linkName: 'ChartJS 中文文档',
               linkSrc: 'http://eslint.cn/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'MochaJS',
+          tagList: [
+            {
+              linkName: 'MochaJS 官方文档',
+              linkSrc: 'http://mochajs.org/',
+              linkDes: ''
+            },
+            {
+              linkName: 'MochaJS 实例教程',
+              linkSrc: 'http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html',
               linkDes: ''
             }
           ]

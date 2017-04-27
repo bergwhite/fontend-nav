@@ -182,7 +182,6 @@ body {
 }
 @media screen and (max-width: 960px) {
   body {
-    background-color: red;
     transition: all .2s;
   }
   #app {
