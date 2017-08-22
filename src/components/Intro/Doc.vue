@@ -15,33 +15,8 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '深入工具',
+      msg: '文档',
       link: [
-        {
-          tagName: '常用',
-          tagList: [
-            {
-              linkName: '兼容性查询 Can I Use',
-              linkSrc: 'http://caniuse.com/',
-              linkDes: ''
-            },
-            {
-              linkName: '在线流程图 ProcessOn',
-              linkSrc: 'https://www.processon.com/popular',
-              linkDes: ''
-            },
-            {
-              linkName: '在线编辑器 jsfiddle',
-              linkSrc: 'https://jsfiddle.net/',
-              linkDes: ''
-            },
-            {
-              linkName: 'youmightnotneedjquery',
-              linkSrc: 'http://youmightnotneedjquery.com/',
-              linkDes: ''
-            }
-          ]
-        },
         {
           tagName: 'Git',
           tagList: [
@@ -163,6 +138,11 @@ export default {
             {
               linkName: 'MongoDB 中文文档',
               linkSrc: 'http://www.mongodb.org.cn/',
+              linkDes: ''
+            },
+            {
+              linkName: 'Mongoose 中文文档',
+              linkSrc: 'http://mongoosejs.com/',
               linkDes: ''
             }
           ]

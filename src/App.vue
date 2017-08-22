@@ -45,8 +45,16 @@ export default {
               link: '/intro/learn'
             },
             {
-              name: '视频',
-              link: '/intro/video'
+              name: '手册',
+              link: '/intro/manual'
+            },
+            {
+              name: '文档',
+              link: '/intro/doc'
+            },
+            {
+              name: '工具',
+              link: '/intro/tool'
             }
           ]
         },
@@ -73,10 +81,6 @@ export default {
             {
               name: '框架',
               link: '/deep/framework'
-            },
-            {
-              name: '工具',
-              link: '/deep/tool'
             }
           ]
         },

@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '入门教程',
+      msg: '教程',
       link: [
         {
           tagName: 'HTML',

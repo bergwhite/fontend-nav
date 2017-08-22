@@ -2,12 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/Main'
 import IntroLearn from '@/components/Intro/Learn'
-import IntroVideo from '@/components/Intro/Video'
+import IntroManual from '@/components/Intro/Manual'
+import IntroDoc from '@/components/Intro/Doc'
+import IntroTool from '@/components/Intro/Tool'
 import AdvanceBook from '@/components/Advance/Book'
 import AdvanceSeries from '@/components/Advance/Series'
 import DeepLibrary from '@/components/Deep/Library'
 import DeepFramework from '@/components/Deep/Framework'
-import DeepTool from '@/components/Deep/Tool'
 import ShareCommunity from '@/components/Share/Community'
 import ShareBlog from '@/components/Share/Blog'
 
@@ -26,9 +27,19 @@ export default new Router({
       component: IntroLearn
     },
     {
-      path: '/intro/video',
-      name: 'Video',
-      component: IntroVideo
+      path: '/intro/manual',
+      name: 'Manual',
+      component: IntroManual
+    },
+    {
+      path: '/intro/doc',
+      name: 'Doc',
+      component: IntroDoc
+    },
+    {
+      path: '/intro/tool',
+      name: 'Tool',
+      component: IntroTool
     },
     {
       path: '/advance/book',
@@ -49,11 +60,6 @@ export default new Router({
       path: '/deep/framework',
       name: 'DeepFramework',
       component: DeepFramework
-    },
-    {
-      path: '/deep/tool',
-      name: 'DeepTool',
-      component: DeepTool
     },
     {
       path: '/share/community',

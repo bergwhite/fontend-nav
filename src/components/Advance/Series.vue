@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '进阶系列',
+      msg: '系列',
       props: ['renderLink'],
       link: [
         {

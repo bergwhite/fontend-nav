@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '进阶图书',
+      msg: '图书',
       props: ['renderLink'],
       link: [
         {

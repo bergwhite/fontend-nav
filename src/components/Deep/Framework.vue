@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '深入框架',
+      msg: '框架',
       props: ['renderLink'],
       link: [
         {

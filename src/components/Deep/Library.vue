@@ -15,7 +15,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '深入库',
+      msg: '库',
       link: [
         {
           tagName: 'jQuery',
