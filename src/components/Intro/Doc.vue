@@ -44,6 +44,16 @@ export default {
               linkName: 'NodeJS 中文文档',
               linkSrc: 'http://nodejs.cn/',
               linkDes: ''
+            },
+            {
+              linkName: 'json-web-token（JWT） 官方文档',
+              linkSrc: 'http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html',
+              linkDes: ''
+            },
+            {
+              linkName: 'NodeJS JWT库',
+              linkSrc: 'https://github.com/auth0/node-jsonwebtoken',
+              linkDes: ''
             }
           ]
         },
@@ -103,31 +113,6 @@ export default {
           ]
         },
         {
-          tagName: 'Express',
-          tagList: [
-            {
-              linkName: 'Express 官方文档',
-              linkSrc: 'http://expressjs.com/',
-              linkDes: ''
-            },
-            {
-              linkName: 'Express 中文文档',
-              linkSrc: 'http://www.expressjs.com.cn/',
-              linkDes: ''
-            }
-          ]
-        },
-        {
-          tagName: 'Koa',
-          tagList: [
-            {
-              linkName: 'Koa 官方文档',
-              linkSrc: 'http://koajs.com/',
-              linkDes: ''
-            }
-          ]
-        },
-        {
           tagName: 'MongoDB',
           tagList: [
             {
@@ -143,6 +128,16 @@ export default {
             {
               linkName: 'Mongoose 中文文档',
               linkSrc: 'http://mongoosejs.com/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'SocketIO',
+          tagList: [
+            {
+              linkName: 'SocketIO 官方文档',
+              linkSrc: 'https://socket.io/docs/',
               linkDes: ''
             }
           ]

@@ -15,8 +15,23 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '库',
+      msg: 'JS库',
       link: [
+        {
+          tagName: 'Lodash',
+          tagList: [
+            {
+              linkName: 'Lodash 官方文档',
+              linkSrc: 'https://lodash.com/',
+              linkDes: ''
+            },
+            {
+              linkName: 'Lodash API',
+              linkSrc: 'https://lodash.com/docs/4.17.4',
+              linkDes: ''
+            }
+          ]
+        },
         {
           tagName: 'jQuery',
           tagList: [
@@ -68,6 +83,26 @@ export default {
             {
               linkName: 'ChartJS 官方文档',
               linkSrc: 'http://www.chartjs.org/docs/',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'EChartsJS',
+          tagList: [
+            {
+              linkName: 'EChartsJS 官方文档',
+              linkSrc: 'http://echarts.baidu.com/tutorial.html',
+              linkDes: ''
+            },
+            {
+              linkName: 'EChartsJS API',
+              linkSrc: 'http://echarts.baidu.com/api.html',
+              linkDes: ''
+            },
+            {
+              linkName: 'EChartsJS DEMO',
+              linkSrc: 'http://echarts.baidu.com/examples.html',
               linkDes: ''
             }
           ]

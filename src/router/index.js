@@ -8,6 +8,7 @@ import IntroTool from '@/components/Intro/Tool'
 import AdvanceBook from '@/components/Advance/Book'
 import AdvanceSeries from '@/components/Advance/Series'
 import DeepLibrary from '@/components/Deep/Library'
+import DeepLibraryUI from '@/components/Deep/LibraryUI'
 import DeepFramework from '@/components/Deep/Framework'
 import ShareCommunity from '@/components/Share/Community'
 import ShareBlog from '@/components/Share/Blog'
@@ -23,38 +24,43 @@ export default new Router({
     },
     {
       path: '/intro/learn',
-      name: 'Learn',
+      name: 'IntroLearn',
       component: IntroLearn
     },
     {
       path: '/intro/manual',
-      name: 'Manual',
+      name: 'IntroManual',
       component: IntroManual
     },
     {
       path: '/intro/doc',
-      name: 'Doc',
+      name: 'IntroDoc',
       component: IntroDoc
     },
     {
       path: '/intro/tool',
-      name: 'Tool',
+      name: 'IntroTool',
       component: IntroTool
     },
     {
       path: '/advance/book',
-      name: 'Book',
+      name: 'AdvanceBook',
       component: AdvanceBook
     },
     {
       path: '/advance/series',
-      name: 'Series',
+      name: 'AdvanceSeries',
       component: AdvanceSeries
     },
     {
       path: '/deep/library',
       name: 'DeepLibrary',
       component: DeepLibrary
+    },
+    {
+      path: '/deep/library-ui',
+      name: 'DeepLibraryUI',
+      component: DeepLibraryUI
     },
     {
       path: '/deep/framework',

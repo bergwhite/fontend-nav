@@ -75,8 +75,12 @@ export default {
           tagName: '深入',
           link: [
             {
-              name: '库',
+              name: 'JS库',
               link: '/deep/library'
+            },
+            {
+              name: 'UI库',
+              link: '/deep/library-ui'
             },
             {
               name: '框架',

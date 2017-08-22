@@ -19,6 +19,36 @@ export default {
       props: ['renderLink'],
       link: [
         {
+          tagName: 'Vue手册',
+          tagList: [
+            {
+              linkName: 'Vue 爬坑之路',
+              linkSrc: 'http://www.cnblogs.com/wisewrong/tag/vue/',
+              linkDes: 'Vue实践教程'
+            }
+          ]
+        },
+        {
+          tagName: 'Express手册',
+          tagList: [
+            {
+              linkName: 'Node.js：cookie和session在Express中应用',
+              linkSrc: 'http://kirochen.com/2015/07/09/about-cookie-session/',
+              linkDes: ''
+            },
+            {
+              linkName: 'Nodejs进阶：express+session实现简易身份认证',
+              linkSrc: 'http://www.cnblogs.com/chyingp/p/nodejs-learning-express-session.html',
+              linkDes: ''
+            },
+            {
+              linkName: 'Nodejs进阶：基于express+multer的文件上传',
+              linkSrc: 'http://www.cnblogs.com/chyingp/p/express-multer-file-upload.html',
+              linkDes: ''
+            }
+          ]
+        },
+        {
           tagName: 'MongoDB手册',
           tagList: [
             {
@@ -39,6 +69,26 @@ export default {
             {
               linkName: 'mongoose对查询结果进行排序',
               linkSrc: 'http://blog.csdn.net/zk437092645/article/details/9345885',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: 'SocketIO手册',
+          tagList: [
+            {
+              linkName: 'Socket.io各个发送消息的含义',
+              linkSrc: 'http://www.cnblogs.com/liuswi/p/4024319.html',
+              linkDes: ''
+            }
+          ]
+        },
+        {
+          tagName: '用户认证手册',
+          tagList: [
+            {
+              linkName: '基于JWT的Socket.io用户认证',
+              linkSrc: 'http://blog.csdn.net/soaring_tiger/article/details/51439605',
               linkDes: ''
             }
           ]

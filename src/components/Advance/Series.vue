@@ -82,6 +82,26 @@ export default {
           tagName: '数据结构和算法',
           tagList: [
             {
+              linkName: '数据结构和算法系列总结 - 永远的麦子',
+              linkSrc: 'http://www.cnblogs.com/mcgrady/category/396002.html',
+              linkDes: ''
+            },
+            {
+              linkName: '算法洗脑系列（8篇） - 一线码农',
+              linkSrc: 'http://www.cnblogs.com/huangxincheng/category/340148.html',
+              linkDes: ''
+            },
+            {
+              linkName: '6天通吃树结构 - 一线码农',
+              linkSrc: 'http://www.cnblogs.com/huangxincheng/category/397768.html',
+              linkDes: ''
+            },
+            {
+              linkName: '算法系列15天速成 - 一线码农',
+              linkSrc: 'http://www.cnblogs.com/huangxincheng/category/340146.html',
+              linkDes: ''
+            },
+            {
               linkName: '可视化算法 VisualGo',
               linkSrc: 'http://zh.visualgo.net/',
               linkDes: ''
